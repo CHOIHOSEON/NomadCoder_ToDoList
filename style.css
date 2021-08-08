@@ -1,0 +1,77 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.hidden {
+    display: none;
+}
+img {
+    width: 1980px;
+    height: 1060px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+.center-content #clock {
+    font-size: 60px;
+    color: white;
+    margin: 20px 0px;
+}
+.center-content #login-form input {
+    height: 70px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.center-content #greeting {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.center-content #quote {
+    color: LightYellow;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 30px;
+}
+.center-content #todo-form input {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.center-content #todo-list {
+    list-style-type: none;
+}
+.center-content #todo-list li{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+.center-content button{
+    padding: 5px;
+    margin-left: 10px;
+}
+.center-content #weather{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
